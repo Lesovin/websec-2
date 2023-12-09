@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Прибывалка</title>
+        <link rel="stylesheet" href="style.css"/>
+        <script src="https://api-maps.yandex.ru/2.1/?apikey=04fe1bed-fc47-4e90-9c7e-e09cdcdc3fc1&lang=ru_RU"></script>
+    </head>
+    <body>
+        <div id = "wrap">
+            <header>
+                <div class = "title">Прибывалка</div>
+            </header>
+        </div>
+        <datalist id="search-list">
+        </datalist>
+        <section>
+            <div class="container">
+                <div id="Map" ></div>
+            </div>
+        </section>
+        <div class="overlay top">
+            <div class="overlay-inner" >
+              <div class="overlay-transport">
+                <button onclick="toggleSearch()">Поиск по всем</button>
+                <h2>Избранное</h2>
+              </div>
+            </div>
+          </div>
+        <script src="script.js"></script>
+    </body>
+
+</html>
